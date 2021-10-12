@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family:'Inter', system-ui;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffe9e9;
+}
+
+*{
+  font-family:'Inter', system-ui;  
+}
+
+.wrapper {
+background: #FFFFFF;
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04);
+border-radius: 20px;
+max-width: 1080px;
+margin: 50px auto;
+}
+
+.button {
+background: #FFFFFF;
+border: 1px solid #F2F2F2;
+box-sizing: border-box;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.searchBlock {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  input {
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+
+  }
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+
+.clearBtn {
+  cursor: pointer;
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}

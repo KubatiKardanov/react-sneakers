@@ -1,0 +1,44 @@
+
+.siteLogo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border-bottom: 1px solid #f1f1f1;
+    
+    p{
+      opacity: .5;
+    }
+    .headerRight {
+      display: flex;
+      
+  
+      svg{
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+    }
+  
+    .headerLeft {
+      display: flex;
+      align-items: center;
+  
+      img {
+        margin-right: 10px;
+        margin-left: 10px;
+      }
+  
+      h3,
+      p{
+        margin: 0;
+      }
+  
+    }
+} 
